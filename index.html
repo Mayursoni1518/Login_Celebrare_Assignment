@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGiONS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo">
+                <img src="https://www.regions.com/-/media/Images/Logo/Desktop/header-logo-desktop-regions-standard.svg?revision=5073573a-233c-4471-a6dc-112e6b2cc767" alt="Regions Logo">
+            </div>
+            <div class="section">
+                <div class="header">
+                    <div class="des">
+                        <p>Are you a new customer?</p>
+                        <div class="enroll-container">
+                            <button class="enroll">Enroll Now</button>
+                            <div class="dropdown-content">
+                                <p>Enroll now to:</p>
+                                <p><i>✔</i> Access your loans online</p>
+                                <p><i>✔</i> Pay your mortgage online</p>
+                                <p><i>✔</i> View your mortgage statements</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main">
+                    <h1>Welcome Back</h1>
+                    <p class="sign">Sign in to your Regions MyMortgage account.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" id="onlineId" placeholder=" " required>
+                            <label for="onlineId">Online Id</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="password" placeholder=" " required>
+                            <label for="password">Password</label>
+                        </div>
+                    </form>
+                    <div class="remember-me">
+                        <input class="cheak" type="checkbox" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <button class="login-button" onclick="handleLogin()">
+                        <span class="btn-text">Login</span>
+                        <div class="loader"></div>
+                    </button>
+                    <div>
+                        <a class="forgot" href="#">Forgot Password?</a>
+                        <a class="forgot" href="#">Forgot Online ID?</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="first">
+                        <p>Equal Housing Leader</p>
+                        <p style="margin-left: 10px;">Member FGIC</p>
+                    </div>
+                    <div class="second">
+                        <p>&copy; 2023 Regions Final Corporation. All rights reserved.</p>
+                        <a href="#" style="color: green; text-decoration: none; margin-left: 10px;">(1800) Regions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img class="photo" src="https://plus.unsplash.com/premium_photo-1689609950112-d66095626efb?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="A scenic view">
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
