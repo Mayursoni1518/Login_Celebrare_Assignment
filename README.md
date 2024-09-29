@@ -1,4 +1,4 @@
-# Login_Celebrare_Assisnment
+# Login_Celebrare_Assignment
 
 # Responsive Login Page
 This project showcases a responsive login page developed using HTML, CSS, and JavaScript, designed to replicate the functionality demonstrated in an application.
